@@ -27,40 +27,87 @@ Config.Objects = {
 
 Config.Locations = {
     duty = {
-        vector3(440.085, -974.924, 30.689),
-        vector3(-449.811, 6012.909, 31.815),
+        vector3(440.085, -974.924, 30.689), ---City
+        vector3(-1632.0, -1024.64, 13.16), ---Del Peiro
+        vector3(1853.15, 3690.08, 34.27), ---Sandy
+        vector3(-449.811, 6012.909, 31.815), ---Paleto
+        vector3(1729.21, 3028.37, 62.98), ---Park Ranger
+        vector3(1775.59, 2476.93, 45.85), ---Prison
+        vector3(5130.09, -4706.7, 6.49), ---Cayo Perico
     },
     vehicle = {
-        vector4(448.159, -1017.41, 28.562, 90.654),
-        vector4(471.13, -1024.05, 28.17, 274.5),
-        vector4(-455.39, 6002.02, 31.34, 87.93),
+        vector4(447.12, -1006.05, 27.3, 180.28), ---City
+        vector4(471.13, -1024.05, 28.17, 274.5), ---City
+        vector4(-1613.71, -1037.11, 13.15, 317.96), ---Del Piero
+        vector4(1867.59, 3696.67, 33.58, 210.15), ---Sandy
+        vector4(-455.39, 6002.02, 31.34, 87.93), ---Paleto
+        vector4(1741.73, 3022.61, 62.66, 306.78), ---Park Ranger
+        vector4(5117.66, -4708.29, 3.13, 160.24), ---Cayo Perico
+
     },
     stash = {
-        vector3(453.075, -980.124, 30.889),
+        vector3(5092.54, -4683.22, 2.41), ---City
+        vector3(-1620.05, -1018.37, 13.16), ---Del Piero
+        vector3(1850.91, 3693.31, 34.27), ---Sandy
+        vector3(-456.73, 6013.44, 31.76), ---Paleto
+        vector3(1737.28, 3027.92, 62.98), ---Park Ranger
+        vector3(1780.05, 2484.6, 45.86), ---Prison
+        vector3(5131.22, -4702.83, 2.43), ---Cayo Perico
+
     },
     impound = {
-        vector3(436.68, -1007.42, 27.32),
-        vector3(-436.14, 5982.63, 31.34),
+        vector3(434.07, -1005.62, 27.22), ---City
+        vector3(-1613.12, -1028.64, 13.15), ---Del Piero
+        vector3(1854.29, 3700.79, 34.27), ---Sandy
+        vector3(-449.42, 6026.24, 31.49), ---Paleto
+        vector3(1726.46, 3029.9, 62.21), ---Park Ranger
+        vector3(5103.87, -4679.65, 3.21), ---Cayo Perico
+
     },
     helicopter = {
-        vector4(449.168, -981.325, 43.691, 87.234),
-        vector4(-475.43, 5988.353, 31.716, 31.34),
+        vector4(449.168, -981.325, 43.691, 87.234), ---City
+        vector4(-1624.37, -1011.49, 13.53, 318.77), ---Del Piero
+        vector4(1859.66, 3710.24, 33.28, 212.56), ---Sandy
+        vector4(-475.43, 5988.353, 31.716, 31.34), ---Paleto
+        vector4(1725.56, 3013.54, 62.81, 142.0), ---Park Ranger
+        vector4(5096.05, -4696.79, 3.19, 165.18), ---Cayo Perico
     },
     trash = {
-        vector3(439.0907, -976.746, 30.776),
+        vector3(444.01, -995.92, 30.69), ---City
+        vector3(-1627.63, -1028.97, 13.16), ---Del Piero
+        vector3(1846.08, 3683.03, 34.26), ---Sandy
+        vector3(-447.94, 6015.48, 36.81), ---Paleto
+        vector3(1736.68, 3022.18, 62.98), ---Park Ranger
+        vector3(1767.91, 2477.95, 45.85), ---Prison
+        vector3(5092.42, -4685.35, 2.45), ---Cayo Perico
+
     },
     fingerprint = {
-        vector3(460.9667, -989.180, 24.92),
+        vector3(461.57, -989.31, 24.91), ---City
+        vector3(-1620.97, -1027.71, 13.16), ---Del Piero
+        vector3(1848.53, 3680.62, 30.26), ---Sandy
+        vector3(-451.87, 6017.94, 24.73), ---Paleto
+        vector3(1734.36, 3023.28, 62.98), ---Park Ranger
+        vector3(5091.25, -4685.1, 2.41), ---Cayo Perico
+
     },
     evidence = {
-        vector3(442.1722, -996.067, 30.689),
-        vector3(451.7031, -973.232, 30.689),
-        vector3(455.1456, -985.462, 30.689),
+        vector3(455.85, -979.13, 30.69), ---City
+        vector3(-1628.64, -1026.27, 13.16), ---Del Piero
+        vector3(1857.48, 3698.33, 34.27), ---Sandy
+        vector3(-448.59, 6021.95, 31.76), ---Paleto
+        vector3(1734.17, 3029.13, 63.11), ---Park Ranger
+        vector3(5092.24, -4680.65, 2.41), ---Cayo Perico
+
     },
     stations = {
-        { label = 'Police Station',        coords = vector4(428.23, -984.28, 29.76, 3.5) },
-        { label = 'Prison',                coords = vector4(1845.903, 2585.873, 45.672, 272.249) },
-        { label = 'Police Station Paleto', coords = vector4(-451.55, 6014.25, 31.716, 223.81) },
+        { label = 'Police Station', coords = vector4(428.23, -984.28, 29.76, 3.5) },
+        { label = 'Del Piero Police Station', coords = vector4(-1623.65, -1028.99, 13.16, 240.82) },
+        { label = 'Sandy Sheriff Station', coords = vector4(1850.93, 3690.93, 34.27, 218.07) },
+        { label = 'Paleto Police Station', coords = vector4(-451.55, 6014.25, 31.716, 223.81) },
+        { label = 'Sandy Park Ranger', coords = vector4(1738.85, 3027.02, 62.98, 263.13) },
+        { label = 'Prison', coords = vector4(1845.903, 2585.873, 45.672, 272.249) },
+        { label = 'Cayo Perico Police Station', coords = vector4(5102.17, -4684.72, 8.67, 172.59) },
     },
 }
 
@@ -101,6 +148,9 @@ Config.SecurityCameras = {
         [32] = { label = 'Vangelico Jewelery CAM#2', coords = vector3(-627.51, -229.51, 40.24), r = { x = -35.0, y = 0.0, z = -95.78 }, canRotate = true, isOnline = true },
         [33] = { label = 'Vangelico Jewelery CAM#3', coords = vector3(-620.3, -224.31, 40.23), r = { x = -35.0, y = 0.0, z = 165.78 }, canRotate = true, isOnline = true },
         [34] = { label = 'Vangelico Jewelery CAM#4', coords = vector3(-622.57, -236.3, 40.31), r = { x = -35.0, y = 0.0, z = 5.78 }, canRotate = true, isOnline = true },
+        [35] = { label = "Vangelico's Grapeseed CAM#1", coords = vector3(1645.27, 4886.01, 44.7), r = {x = -35.0, y = 0.0, z = -141.82}, canRotate = true, isOnline = true}, -- don-jewellery
+        [36] = { label = "Vangelico's Paleto CAM#1", coords = vector3(-374.46, 6045.52, 34.05), r = {x = -35.0, y = 0.0, z = -105.09}, canRotate = true, isOnline = true}, -- don-jewellery
+        [37] = { label = "Vankhov Jewellers CAM#1", coords = vector3(-1385.38, -296.32, 47.02), r = {x = -35.0, y = 0.0, z = 272.39}, canRotate = true, isOnline = true}, -- don-jewellery
     },
 }
 
